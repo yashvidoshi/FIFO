@@ -1,0 +1,164 @@
+$date
+	Sat May 23 12:36:13 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 1 ! full $end
+$var wire 1 " empty $end
+$var wire 8 # dout [7:0] $end
+$var reg 1 $ clk $end
+$var reg 8 % din [7:0] $end
+$var reg 1 & rd_en $end
+$var reg 1 ' rstn $end
+$var reg 1 ( wr_en $end
+$scope module uut $end
+$var wire 1 $ clk $end
+$var wire 8 ) din [7:0] $end
+$var wire 1 & rd_en $end
+$var wire 1 ' rstn $end
+$var wire 1 ( wr_en $end
+$var wire 1 ! full $end
+$var wire 1 " empty $end
+$var parameter 32 * DEPTH $end
+$var parameter 32 + DWIDTH $end
+$var reg 4 , count [3:0] $end
+$var reg 8 - dout [7:0] $end
+$var reg 3 . rptr [2:0] $end
+$var reg 3 / wptr [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 +
+b1000 *
+$end
+#0
+$dumpvars
+bx /
+bx .
+bx -
+bx ,
+b0 )
+0(
+0'
+0&
+b0 %
+0$
+bx #
+x"
+x!
+$end
+#5
+b0 /
+b0 #
+b0 -
+b0 .
+0!
+1"
+b0 ,
+1$
+#10
+0$
+#15
+1$
+#20
+0$
+b10001 %
+b10001 )
+1(
+1'
+#25
+b1 /
+0"
+b1 ,
+1$
+#30
+0$
+b100010 %
+b100010 )
+#35
+b10 ,
+b10 /
+1$
+#40
+0$
+b110011 %
+b110011 )
+#45
+b11 /
+b11 ,
+1$
+#50
+0$
+0(
+#55
+1$
+#60
+0$
+1&
+#65
+b1 .
+b10001 #
+b10001 -
+1$
+#70
+0$
+#75
+b10 .
+b100010 #
+b100010 -
+1$
+#80
+0$
+#85
+b11 .
+b110011 #
+b110011 -
+1$
+#90
+0$
+0&
+#95
+1$
+#100
+0$
+1&
+b1000100 %
+b1000100 )
+1(
+#105
+b100 /
+b100 .
+bx #
+bx -
+1$
+#110
+0$
+0&
+0(
+#115
+1$
+#120
+0$
+#125
+1$
+#130
+0$
+#135
+1$
+#140
+0$
+#145
+1$
+#150
+0$
+#155
+1$
+#160
+0$
